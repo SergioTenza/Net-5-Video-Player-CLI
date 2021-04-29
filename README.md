@@ -3,7 +3,9 @@
 
  Implementation of WinForms to be a simple Video Player  
  Using PVS.MediaPlayer form CodeProject  
- https://www.codeproject.com/Articles/109714/PVS-MediaPlayer-Audio-and-Video-Player-Library
+ https://www.codeproject.com/Articles/109714/PVS-MediaPlayer-Audio-and-Video-Player-Library  
+ PVS.MediaPlayer Licensing  
+ https://www.codeproject.com/info/cpol10.aspx
 
  Usage  
 
