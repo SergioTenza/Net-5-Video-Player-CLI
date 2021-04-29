@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PVS.MediaPlayer.dll" />
+    <None Remove="PVS.MediaPlayer.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="PVS.MediaPlayer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PVS.MediaPlayer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PVS.MediaPlayer">
+      <HintPath>PVS.MediaPlayer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
